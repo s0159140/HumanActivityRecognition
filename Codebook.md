@@ -19,8 +19,8 @@ This Codebook documents all the variables and measures used in the output file "
 * **LAYING (value 6)**: subject was laying down during the test
 
 ##Measures
-*`tBodyAccMeanX`
-*`tBodyAccMeanY`
+*`tBodyAccMeanX` 
+*`tBodyAccMeanY` 
 *`tBodyAccMeanZ`
 *`tBodyAccStdX`
 *`tBodyAccStdY`
