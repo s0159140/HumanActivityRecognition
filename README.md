@@ -15,6 +15,9 @@ The R script run_analysis.R will carry out the following operations
 * Keeping only columns that have a means or a standard deviation pattern in the column name
 * Adding the activity names to the data set
 * Adding index labels for each of the test subject individuals
-* Creating a new tidy dataset containing the index label for the individuals, an activity label and the means of each of the parameters described in the Codebook.md for this individual-activity pair
+* Creating a new tidy dataset containing the 
+  * index label for the test individuals
+  * an activity label
+  * the means over each of the columns retained in step 2
 * The result will be returned in a text file HAR_tidy.txt, located in the working directory.
 
