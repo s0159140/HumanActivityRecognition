@@ -5,6 +5,10 @@
 ##Purpose
 test
 
+##Prerequisites
+* You must download the dataset [Human Activity Recognition](https://www.coursera.org/learn/data-cleaning/peer/FIZtT/getting-and-cleaning-data-course-project), and unzip the downloaded folder.
+* You must set your working directory to the location where the unzipped folder is located, using setwd()
+
 ##Instructions
 The R script run_analysis.R will execute the following tasks
 * Download the dataset if it does not already exist in the working directory
@@ -17,4 +21,4 @@ The R script run_analysis.R will execute the following tasks
 * The end result is shown in the file tidy.txt.
 
 ##About the raw data
-test
+
