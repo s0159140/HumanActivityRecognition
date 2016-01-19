@@ -7,7 +7,7 @@ test
 
 ##Prerequisites
 * You must download the dataset [Human Activity Recognition](https://www.coursera.org/learn/data-cleaning/peer/FIZtT/getting-and-cleaning-data-course-project), and unzip the downloaded folder.
-* You must set your working directory to the location where the unzipped folder is located, using setwd()
+* You must set your working directory to the location where the unzipped folder is located, using ```setwd()```
 
 ##Instructions
 The R script run_analysis.R will carry out the following operations
