@@ -7,6 +7,7 @@ This Codebook documents all the variables and measures used in the output file "
 
 #Identifiers
 *`subject` - gives a numeric index label to each of the tested individuals
+
 *`activity` - documents the activity the invididuals were performing when their training data were taken
 
 #Activity Labels
