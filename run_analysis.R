@@ -73,5 +73,5 @@ alldata_agg <- cbind(x_agg, y_agg, subject_agg)
 # Splitting the alldata_agg data frame by subject and activity, then applying the column means
 averages_data <- ddply(alldata_agg, .(subject, activity), function(x) colMeans(x[, 1:66]))
 
-# Return a table
-write.table(averages_data, "averages_data.txt", row.name=FALSE)
+# Return a tidy dataset in the text file HAR_tidy.txt
+write.table(averages_data, "HAR_tidy.txt", row.name=FALSE)
