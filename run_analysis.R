@@ -2,7 +2,7 @@
 #Module 3: Getting and Cleaning Data
 #Original Submission by Bert CARLIER - Jan-19 2016
 
-install.packages("plyr")
+library("plyr")
 
 # Part 1
 # Merging the training and the test sets to create one data set.
