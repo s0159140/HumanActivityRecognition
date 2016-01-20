@@ -65,14 +65,22 @@ names(subject_agg) <- "subject"
 # Creating a variable alldata_agg, bind all the data together
 alldata_agg <- cbind(x_agg, y_agg, subject_agg)
 
-#To make the variable names more descriptive, we could sub the abbrevations with their real meanings
-#We will not implement below chunck of code, but explain the abbreviations in the codebook
-#names(alldata_agg)<-gsub("^t", "time", names(alldata_agg))
-#names(alldata_agg)<-gsub("^f", "frequency", names(alldata_agg))
-#names(alldata_agg)<-gsub("Acc", "Accelerometer", names(alldata_agg))
-#names(alldata_agg)<-gsub("Gyro", "Gyroscope", names(alldata_agg))
-#names(alldata_agg)<-gsub("Mag", "Magnitude", names(alldata_agg))
-#names(alldata_agg)<-gsub("BodyBody", "Body", names(alldata_agg))
+# Remove parentheses
+names(alldata_agg) <- gsub('\\(|\\)',"",names(alldata_agg), perl = TRUE)
+
+# Make syntactically valid names
+names(alldata_agg) <- make.names(names(alldata_agg))
+# Make the names more descriptive 
+names(alldata_agg) <- gsub('Acc',"Acceleration",names(alldata_agg))
+names(alldata_agg) <- gsub('GyroJerk',"AngularAcceleration",names(alldata_agg))
+names(alldata_agg) <- gsub('Gyro',"AngularSpeed",names(alldata_agg))
+names(alldata_agg) <- gsub('Mag',"Magnitude",names(alldata_agg))
+names(alldata_agg) <- gsub('^t',"TimeDomain.",names(alldata_agg))
+names(alldata_agg) <- gsub('^f',"FrequencyDomain.",names(alldata_agg))
+names(alldata_agg) <- gsub('\\.mean',".Mean",names(alldata_agg))
+names(alldata_agg) <- gsub('\\.std',".StandardDeviation",names(alldata_agg))
+names(alldata_agg) <- gsub('Freq\\.',"Frequency.",names(alldata_agg))
+names(alldata_agg) <- gsub('Freq$',"Frequency",names(alldata_agg))
 
 # Step 5
 # Creating a second, independent tidy data set with the average of each variable
