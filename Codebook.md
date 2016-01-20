@@ -32,5 +32,6 @@ Return an aggregated, structure cleaned dataset "HAR_tidy.txt" containing
 |<sub>Body Acceleration Jerk Magnitude	</sub>|<sub>m/s^3 (*)</sub>|<sub>TimeDomain.BodyAccelerationJerkMagnitude</sub>|<sub>FrequencyDomain.BodyAccelerationJerkMagnitude</sub>|
 |<sub>Body Angular Speed Magnitude	</sub>|<sub>rad/s</sub>|<sub>TimeDomain.BodyAngularSpeedMagnitude	</sub>|<sub>FrequencyDomain.BodyAngularSpeedMagnitude	</sub>|
 |<sub>Body Angular Acceleration Magnitude</sub>|<sub>rad/s^2</sub>|<sub>TimeDomain.BodyAngularAccelerationMagnitude</sub>|<sub>FrequencyDomain.BodyAngularAccelerationMagnitude	</sub>|
-
 (*) Acceleration and Jerk are measured as gravitational units (g)
+
+The time and frequency domain labels are augmented with a tag "Mean" or "StandardDeviation".
