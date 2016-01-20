@@ -33,27 +33,27 @@ Whereby
 
 The below table summarizes which physical signals are (1) or are not (0) being measured in the time and frequency domain
 
-Table 1: Movement and rotation signals measured by the devices on the body (accelerometer and gyroscope)
 |Signal|Physical measure|Units|Time|Frequency|
 |---|---|---|---|---|---|
 |Body Acc|Acceleration (along X,Y and Z axis)|m/s^2 (*)|1|1|
 |Body Acc Jerk|Jerk of Acceleration (along X,Y and Z axis)|m/s^2 (*)|1|1|
 |Body Angular Speed|Angular Speed (along X,Y and Z axis)|rad/s|1|1|
 |Body Angular Acc|Angular Acceleration (along X,Y and Z axis)|rad/s^s|1|0|
+Table 1: Movement and rotation signals measured by the devices on the body (accelerometer and gyroscope)
 
-Table 2: We measure the impact of gravity seperate (to calculate the net movement of the body)
 |Signal|Physical measure|Units|Time|Frequency|
 |---|---|---|---|---|---|
 |Gravity Acc|Acceleration (along X,Y and Z axis)|m/s^2 (*)|1|0|
 |Gravity Acc Mag|Magnitude of Acceleration|m/s^2 (*)|1|0|
+Table 2: We measure the impact of gravity seperate (to calculate the net movement of the body)
 
-Table 3: Finally, we get a the magnitude of the signals by summing up vectors along X, Y and Z-axis
 |Signal|Physical measure|Units|Time|Frequency|
 |---|---|---|---|---|---|
 |Body Acc Magnitude|Magnitude of Acceleration|m/s^2 (*)|1|1|
 |Body Acc Jerk Mag|Magnitude of Jerk|m/s^2 (*)|1|1|
 |Body Angular Speed Mag|Magnitude of Angular Speed|rad/s|1|1|
 |Body Angular Acc Mag|Magnitude of Angular Acceleration|rad/s^2|1|1|
+Table 3: Finally, we get a the magnitude of the signals by summing up vectors along X, Y and Z-axis
 
 An example of a parameter in the output data is **fBodyAccJerk-mean()-Z**, which tells us that the data are recorded in the frequency domain and the data represent the means of the "Jerk (of the acceleration)" along Z axis
 
