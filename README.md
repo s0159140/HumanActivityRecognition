@@ -2,7 +2,7 @@
 * Getting and Cleaning Data - Course Project - Human Activity Recognition
 * Original Submission - Bert CARLIER - Jan-19, 2016
 
-##Important: Prerequisites to run the script
+##Before running the R script...
 * You must download the dataset [Human Activity Recognition](https://www.coursera.org/learn/data-cleaning/peer/FIZtT/getting-and-cleaning-data-course-project), and unzip the downloaded folder.
 * You must set your working directory to the location where the unzipped folder is located, using ```setwd()```
 
