@@ -19,7 +19,7 @@ Return an aggregated, structure cleaned dataset "HAR_tidy.txt" containing
   * **LAYING**: invididual was laying down during the test
 * a 79-feature vector with time and frequency domain signal variables (numeric)
 
-|<sub>Physical Signal|Units|Time|Frequency|
+|<sub>Physical Signal|<sub>Units|<sub>Time|<sub>Frequency|
 |---|---|---|---|
 |<sub>Body Acceleration|m/s^2 (*)</sub>|TimeDomain.BodyAcceleration.XYZ|FrequencyDomain.BodyAcceleration.XYZ|
 |<sub>Gravity Acceleration|m/s^2 (*)|TimeDomain.GravityAcceleration.XYZ	| |
