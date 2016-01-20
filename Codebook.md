@@ -19,6 +19,8 @@ Return an aggregated, structure cleaned dataset "HAR_tidy.txt" containing
   * **LAYING**: invididual was laying down during the test
 * a 79-feature vector with time and frequency domain signal variables (numeric)
 
+<sub><sup>
+
 
 |Physical Signal|Units|Time|Frequency|
 |---|---|---|---|
@@ -32,10 +34,7 @@ Return an aggregated, structure cleaned dataset "HAR_tidy.txt" containing
 |Body Acceleration Jerk Magnitude	|m/s^3 (*)|TimeDomain.BodyAccelerationJerkMagnitude|FrequencyDomain.BodyAccelerationJerkMagnitude|
 |Body Angular Speed Magnitude	|rad/s|TimeDomain.BodyAngularSpeedMagnitude	|FrequencyDomain.BodyAngularSpeedMagnitude	|
 |Body Angular Acceleration Magnitude|rad/s^2|TimeDomain.BodyAngularAccelerationMagnitude|FrequencyDomain.BodyAngularAccelerationMagnitude	|
-
-
-An example of a parameter in the output data is **fBodyAccJerk-mean()-Z**, which tells us that the data are recorded in the frequency domain and the data represent the means of the "Jerk (of the acceleration)", measured on the body along Z axis.
-
+Small text</sup></sub>
 
 
 (*) Acceleration and Jerk are measured as gravitational units (g)
