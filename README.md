@@ -2,16 +2,8 @@
 * Getting and Cleaning Data - Course Project - Human Activity Recognition
 * Original Submission - Bert CARLIER - Jan-19, 2016
 
-##Background
-*The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. 
-* Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. 
-* Using its embedded accelerometer and gyroscope, we captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. 
-* The experiments have been video-recorded to label the data manually. 
-* The obtained dataset has been randomly partitioned into two sets: training data and test data
-
-##Purpose
+##Objectives of the course project
 Creating an R script called run_analysis.R that does the following.
-
 * Merges the training and the test sets to create one data set.
 * Extracts only the measurements on the mean and standard deviation for each measurement.
 * Uses descriptive activity names to name the activities in the data set
@@ -34,3 +26,9 @@ The R script run_analysis.R will carry out the following operations
   * the means over each of the columns retained in step 2
 * The result will be returned in a text file HAR_tidy.txt, located in the working directory.
 
+##Background of the data
+*The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. 
+* Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. 
+* Using its embedded accelerometer and gyroscope, we captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. 
+* The experiments have been video-recorded to label the data manually. 
+* The obtained dataset has been randomly partitioned into two sets: training data and test data
