@@ -27,6 +27,18 @@ This Codebook documents all the variables and measures used in the output file "
 |Body Angular Speed|Angular Speed (along X,Y and Z axis)|rad/s|1|1|
 |Body Angular Acc|Angular Acceleration (along X,Y and Z axis)|rad/s^s|1|0|
 
+|Signal|Physical measure|Units|Time|Frequency|
+|---|---|---|---|---|---|
+|Gravity Acc|Acceleration (along X,Y and Z axis)|m/s^2 (*)|1|0|
+|Gravity Acc Mag|Magnitude of Acceleration|m/s^2 (*)|1|0|
+
+|Signal|Physical measure|Units|Time|Frequency|
+|---|---|---|---|---|---|
+|Body Acc Magnitude|Magnitude of Acceleration|m/s^2 (*)|1|1|
+|Body Acc Jerk Mag|Magnitude of Jerk|m/s^2 (*)|1|1|
+|Body Angular Speed Mag|Magnitude of Angular Speed|rad/s|1|1|
+|Body Angular Acc Mag|Magnitude of Angular Acceleration|rad/s^2|1|1|
+
 ##Measures
 
 
