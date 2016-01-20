@@ -65,13 +65,14 @@ names(subject_agg) <- "subject"
 # Creating a variable alldata_agg, bind all the data together
 alldata_agg <- cbind(x_agg, y_agg, subject_agg)
 
-#Making variable names more descriptive
-names(alldata_agg)<-gsub("^t", "time", names(alldata_agg))
-names(alldata_agg)<-gsub("^f", "frequency", names(alldata_agg))
-names(alldata_agg)<-gsub("Acc", "Accelerometer", names(alldata_agg))
-names(alldata_agg)<-gsub("Gyro", "Gyroscope", names(alldata_agg))
-names(alldata_agg)<-gsub("Mag", "Magnitude", names(alldata_agg))
-names(alldata_agg)<-gsub("BodyBody", "Body", names(alldata_agg))
+#To make the variable names more descriptive, we could sub the abbrevations with their real meanings
+#We will not implement below chunck of code, but explain the abbreviations in the codebook
+#names(alldata_agg)<-gsub("^t", "time", names(alldata_agg))
+#names(alldata_agg)<-gsub("^f", "frequency", names(alldata_agg))
+#names(alldata_agg)<-gsub("Acc", "Accelerometer", names(alldata_agg))
+#names(alldata_agg)<-gsub("Gyro", "Gyroscope", names(alldata_agg))
+#names(alldata_agg)<-gsub("Mag", "Magnitude", names(alldata_agg))
+#names(alldata_agg)<-gsub("BodyBody", "Body", names(alldata_agg))
 
 # Step 5
 # Creating a second, independent tidy data set with the average of each variable
