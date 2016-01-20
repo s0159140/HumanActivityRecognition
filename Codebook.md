@@ -22,7 +22,7 @@ This Codebook documents all the variables and measures used in the output file "
 * The activity of 30 test inviduals is being measured using an accelerometer (to track movement) and a gyroscope (to track rotation). 
 * Each of the variables in the data set has below structure
 ```
-**(1) t or f + (2) phsyical measure + (3) mean/Std + (4) X, Y, Z**
+(1) t or f + (2) phsyical measure + (3) mean/Std + (4) X, Y, Z
 ```
 Whereby
 (1) t or f refers whether the signal was recorded in the time (t) or frequency (f) domain
