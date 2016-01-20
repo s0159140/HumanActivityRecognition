@@ -26,7 +26,7 @@ The experiments have been carried out with a group of 30 volunteers within an ag
 * **STANDING**: individual was standing during the test
 * **LAYING**: invididual was laying down during the test
 
-##Element 3: Structure of the meand and stdev output data
+##Element 3: Structure of the mean and stdev output data
 * The activity of 30 test inviduals is being measured using an accelerometer (to track movement) and a gyroscope (to track rotation).
 * Data is both being measured in the time domain (t) as in the frequency domain (f)
 * Each of the parameters in the output data set has below structure
