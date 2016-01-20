@@ -9,9 +9,8 @@ The experiments have been carried out with a group of 30 volunteers within an ag
 
 ##Objective of the run_analysis.R script
 Return an aggregated, structure cleaned dataset "HAR_tidy.txt" containing
- 
 * an identifier `subject` of the individual carrying out the test(numeric): an index between 1-30
-* an activty label `activity` - indicating which form of movement the nvididuals were performing during the experiment
+* an activty label `activity` - indicating which form of movement the indiduals were performing during the experiment
   * **WALKING**  individual was walking during the test
   * **WALKING_UPSTAIRS**: individual was walking up a staircase during the test
   * **WALKING_DOWNSTAIRS**: individual was walking down a staircase during the test
@@ -20,13 +19,8 @@ Return an aggregated, structure cleaned dataset "HAR_tidy.txt" containing
   * **LAYING**: invididual was laying down during the test
 * a 79-feature vector with time and frequency domain signal variables (numeric)
 
-##Element 3: Structure of the mean and stdev output data
-* The activity of 30 test inviduals is being measured using an accelerometer (to track movement) and a gyroscope (to track rotation).
-* Data is both being measured in the time domain (t) as in the frequency domain (f)
-* Each of the parameters in the output data set has below structure
-```
-(1) t or f + (2) phsyical measure + (3) mean/Std + (4) X, Y or Z
-```
+The following table connects the 17 signals measured in the time and frequency domain to their variable names in the dataset
+
 Whereby
 
 1. t or f refers whether the signal was recorded in the time (t) or frequency (f) domain
