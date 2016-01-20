@@ -35,3 +35,4 @@ Return an aggregated, structure cleaned dataset "HAR_tidy.txt" containing
 (*) Acceleration and Jerk are measured as gravitational units (g)
 
 The time and frequency domain labels are augmented with a tag "Mean" or "StandardDeviation".
+The unit of measure for the means is the same as the corresponding label in above table. The Standard Deviation values are dimensionless
