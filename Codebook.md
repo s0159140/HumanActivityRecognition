@@ -2,7 +2,9 @@
 * Getting and Cleaning Data - Course Project
 * Original Submission by Bert CARLIER - Jan-19, 2016
 
-##Background of the Experiment
+A detailed background description about this experiment can be found at [Human Activity Recognition Using Smartphones](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones). 
+
+##Background of the experiment
 The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, we captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. The obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data. 
 
 ##Objective of the run_analysis.R script
@@ -11,12 +13,12 @@ The experiments have been carried out with a group of 30 volunteers within an ag
   * Element 2: an activity label of the action being performed during measurement
   * Element 3: the mean and stdev measures of all motion data
   
-###Element 1: Identifiers
+##Element 1: Identifiers
 *`subject` - gives a numeric index label to each of the tested individuals
 
 *`activity` - documents the activity the invididuals were performing when their training data were taken
 
-###Element 2: Activity Labels
+##Element 2: Activity Labels
 * **WALKING**  individual was walking during the test
 * **WALKING_UPSTAIRS**: individual was walking up a staircase during the test
 * **WALKING_DOWNSTAIRS**: individual was walking down a staircase during the test
@@ -24,7 +26,7 @@ The experiments have been carried out with a group of 30 volunteers within an ag
 * **STANDING**: individual was standing during the test
 * **LAYING**: invididual was laying down during the test
 
-###Element 3: Structure of the meand and stdev output data
+##Element 3: Structure of the meand and stdev output data
 * The activity of 30 test inviduals is being measured using an accelerometer (to track movement) and a gyroscope (to track rotation).
 * Data is both being measured in the time domain (t) as in the frequency domain (f)
 * Each of the parameters in the output data set has below structure
@@ -63,7 +65,6 @@ Table 3: Finally, we get a the magnitude of the signals by summing up vectors al
 
 An example of a parameter in the output data is **fBodyAccJerk-mean()-Z**, which tells us that the data are recorded in the frequency domain and the data represent the means of the "Jerk (of the acceleration)" along Z axis
 
-##Measures
 
 
 
