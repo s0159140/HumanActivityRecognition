@@ -8,23 +8,17 @@ A detailed background description about this experiment can be found at [Human A
 The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, we captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. The obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data. 
 
 ##Objective of the run_analysis.R script
-* Return an aggregated, structure cleaned dataset "HAR_tidy.txt" containing
-  * Element 1: an identifier on the individual being tested
-  * Element 2: an activity label of the action being performed during measurement
-  * Element 3: the mean and stdev measures of all motion data
-  
-##Element 1: Identifiers
-*`subject` - gives a numeric index label to each of the tested individuals
-
-*`activity` - documents the activity the invididuals were performing when their training data were taken
-
-##Element 2: Activity Labels
-* **WALKING**  individual was walking during the test
-* **WALKING_UPSTAIRS**: individual was walking up a staircase during the test
-* **WALKING_DOWNSTAIRS**: individual was walking down a staircase during the test
-* **SITTING**: invididual was sitting during the test
-* **STANDING**: individual was standing during the test
-* **LAYING**: invididual was laying down during the test
+Return an aggregated, structure cleaned dataset "HAR_tidy.txt" containing
+ 
+* an identifier `subject` of the individual carrying out the test(numeric): an index between 1-30
+* an activty label `activity` - indicating which form of movement the nvididuals were performing during the experiment
+  * **WALKING**  individual was walking during the test
+  * **WALKING_UPSTAIRS**: individual was walking up a staircase during the test
+  * **WALKING_DOWNSTAIRS**: individual was walking down a staircase during the test
+  * **SITTING**: invididual was sitting during the test
+  * **STANDING**: individual was standing during the test
+  * **LAYING**: invididual was laying down during the test
+* a 79-feature vector with time and frequency domain signal variables (numeric)
 
 ##Element 3: Structure of the mean and stdev output data
 * The activity of 30 test inviduals is being measured using an accelerometer (to track movement) and a gyroscope (to track rotation).
