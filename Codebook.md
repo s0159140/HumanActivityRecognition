@@ -32,26 +32,22 @@ The below 3 tables summarize all physical signals and calculations (i.e. the sec
 The last 2 columns indicate whether they are (1) or are not (0) being measured in the time and frequency domain
 
 #### First, we capture the movement and rotation signals measured by the devices on the body
-|Header name|Physical signal|Units|Time|Frequency|
-|---|---|---|---|---|---|
-|Body Acc|Acceleration (along X,Y and Z axis)|m/s^2 (*)|1|1|
-|Body Acc Jerk|Jerk of Acceleration (along X,Y and Z axis)|m/s^2 (*)|1|1|
-|Body Angular Speed|Angular Speed (along X,Y and Z axis)|rad/s|1|1|
-|Body Angular Acc|Angular Acceleration (along X,Y and Z axis)|rad/s^s|1|0|
-
-#### Secondly, we seperate the impact of gravity to get to the net human activity
-|Header name|Physical signal|Units|Time|Frequency|
-|---|---|---|---|---|---|
-|Gravity Acc|Acceleration (along X,Y and Z axis)|m/s^2 (*)|1|0|
-|Gravity Acc Mag|Magnitude of Acceleration|m/s^2 (*)|1|0|
-
-#### Finally, we sum up all vectors on the x,y and z-axis to compute the magnitude of the aggregate vector
-|Header name|Physical signal|Units|Time|Frequency|
-|---|---|---|---|---|---|
-|Body Acc Magnitude|Magnitude of Acceleration|m/s^2 (*)|1|1|
-|Body Acc Jerk Mag|Magnitude of Jerk|m/s^2 (*)|1|1|
-|Body Angular Speed Mag|Magnitude of Angular Speed|rad/s|1|1|
-|Body Angular Acc Mag|Magnitude of Angular Acceleration|rad/s^2|1|1|
+|Physical Signal|Units|Time|Frequency|
+|---|---|---|---|
+|Body Acceleration|m/s^2 (*)|TimeDomain.BodyAcceleration.XYZ|FrequencyDomain.BodyAcceleration.XYZ|
+|Body Acceleration Jerk|m/s^3 (*)|TimeDomain.BodyAccelerationJerk.XYZ	|FrequencyDomain.BodyAccelerationJerk.XYZ	|
+|Body Angular Speed|rad/s|TimeDomain.BodyAngularSpeed.XYZ|FrequencyDomain.BodyAngularSpeed.XYZ|
+|Body Angular Acceleration|rad/s^s|TimeDomain.BodyAngularAcceleration.XYZ	|FrequencyDomain.BodyAngularAcceleration.XYZ	|
+|---|---|---|---|
+|Gravity Acceleration|m/s^2 (*)|TimeDomain.GravityAcceleration.XYZ	| |
+|---|---|---|---|
+|Body Acceleration Magnitude	|m/s^2 (*)|TimeDomain.BodyAccelerationMagnitude	|FrequencyDomain.BodyAccelerationMagnitude	|
+|Body Acceleration Jerk Magnitude	|m/s^3 (*)|TimeDomain.BodyAccelerationJerkMagnitude|FrequencyDomain.BodyAccelerationJerkMagnitude|
+|Body Angular Speed Magnitude	|rad/s|TimeDomain.BodyAngularSpeedMagnitude	|FrequencyDomain.BodyAngularSpeedMagnitude	|
+|Body Angular Acceleration Magnitude|rad/s^2|TimeDomain.BodyAngularAccelerationMagnitude|FrequencyDomain.BodyAngularAccelerationMagnitude	|
+|---|---|---|---|
+|Gravity Acceleration Magnitude|m/s^2 (*)|TimeDomain.GravityAccelerationMagnitude	| |
+|---|---|---|---|
 
 An example of a parameter in the output data is **fBodyAccJerk-mean()-Z**, which tells us that the data are recorded in the frequency domain and the data represent the means of the "Jerk (of the acceleration)", measured on the body along Z axis.
 
