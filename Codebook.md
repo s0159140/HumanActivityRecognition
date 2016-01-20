@@ -22,7 +22,7 @@ Return an aggregated, structure cleaned dataset "HAR_tidy.txt" containing
 |<sub>Physical Signal</sub>|<sub>Units</sub>|<sub>Time</sub>|<sub>Frequency</sub>|
 |---|---|---|---|
 |<sub>Body Acceleration|m/s^2 (*)</sub>|TimeDomain.BodyAcceleration.XYZ|FrequencyDomain.BodyAcceleration.XYZ</sub>|
-|<sub>Gravity Acceleration|m/s^2 (*)|TimeDomain.GravityAcceleration.XYZ	| </sub>|
+|<sub>Gravity Acceleration|m/s^2 (*)|TimeDomain.GravityAcceleration.XYZ	||
 |<sub>Body Acceleration Jerk|m/s^3 (*)|TimeDomain.BodyAccelerationJerk.XYZ	|FrequencyDomain.BodyAccelerationJerk.XYZ	</sub>|
 |<sub>Body Angular Speed|rad/s|TimeDomain.BodyAngularSpeed.XYZ|FrequencyDomain.BodyAngularSpeed.XYZ</sub>|
 |<sub>Body Angular Acceleration|rad/s^s|TimeDomain.BodyAngularAcceleration.XYZ	|FrequencyDomain.BodyAngularAcceleration.XYZ	</sub>|
@@ -49,4 +49,24 @@ Return an aggregated, structure cleaned dataset "HAR_tidy.txt" containing
 
 
 
+|<sub>Physical Signal</sub>|<sub> Units</sub>|<sub>Time</sub>|<sub>Frequency</sub>|
 
+|<sub>Body Acceleration</sub>|<sub>m/s^2 (*)</sub>|<sub>TimeDomain.BodyAcceleration.XYZ</sub>|<sub>FrequencyDomain.BodyAcceleration.XYZ</sub>|
+
+|<sub>Gravity Acceleration</sub>|<sub>m/s^2 (*)</sub>|<sub>TimeDomain.GravityAcceleration.XYZ</sub>| |
+
+|<sub>Body Acceleration Jerk</sub>|<sub>m/s^3 (*)</sub>|<sub>TimeDomain.BodyAccelerationJerk.XYZ	</sub>|<sub>FrequencyDomain.BodyAccelerationJerk.XYZ</sub>|
+
+|<sub>Body Angular Speed</sub>|<sub>rad/s</sub>|<sub>TimeDomain.BodyAngularSpeed.XYZ</sub>|<sub>FrequencyDomain.BodyAngularSpeed.XYZ</sub>|
+
+|<sub>Body Angular Acceleration</sub>|<sub>rad/s^s</sub>|<sub>TimeDomain.BodyAngularAcceleration.XYZ	</sub>|<sub>FrequencyDomain.BodyAngularAcceleration.XYZ	</sub>|
+
+|<sub>Body Acceleration Magnitude	</sub>|<sub>m/s^2 (*)</sub>|<sub>TimeDomain.BodyAccelerationMagnitude	</sub>|<sub>FrequencyDomain.BodyAccelerationMagnitude	</sub>|
+x	
+|<sub>Gravity Acceleration Magnitude</sub>|<sub>m/s^2 (*)</sub>|<sub>TimeDomain.GravityAccelerationMagnitude</sub>| |
+
+|<sub>Body Acceleration Jerk Magnitude	</sub>|<sub>m/s^3 (*)</sub>|<sub>TimeDomain.BodyAccelerationJerkMagnitude</sub>|<sub>FrequencyDomain.BodyAccelerationJerkMagnitude</sub>|
+
+|<sub>Body Angular Speed Magnitude	</sub>|<sub>rad/s</sub>|<sub>TimeDomain.BodyAngularSpeedMagnitude	</sub>|<sub>FrequencyDomain.BodyAngularSpeedMagnitude	</sub>|
+
+|<sub>Body Angular Acceleration Magnitude</sub>|<sub>rad/s^2</sub>|<sub>TimeDomain.BodyAngularAccelerationMagnitude</sub>|<sub>FrequencyDomain.BodyAngularAccelerationMagnitude	</sub>|
