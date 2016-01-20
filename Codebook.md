@@ -20,8 +20,6 @@ Return an aggregated, structure cleaned dataset "HAR_tidy.txt" containing
 * a 79-feature vector with time and frequency domain signal variables (numeric)
 
 <sub><sup>
-
-
 |Physical Signal|Units|Time|Frequency|
 |---|---|---|---|
 |Body Acceleration|m/s^2 (*)|TimeDomain.BodyAcceleration.XYZ|FrequencyDomain.BodyAcceleration.XYZ|
@@ -34,7 +32,7 @@ Return an aggregated, structure cleaned dataset "HAR_tidy.txt" containing
 |Body Acceleration Jerk Magnitude	|m/s^3 (*)|TimeDomain.BodyAccelerationJerkMagnitude|FrequencyDomain.BodyAccelerationJerkMagnitude|
 |Body Angular Speed Magnitude	|rad/s|TimeDomain.BodyAngularSpeedMagnitude	|FrequencyDomain.BodyAngularSpeedMagnitude	|
 |Body Angular Acceleration Magnitude|rad/s^2|TimeDomain.BodyAngularAccelerationMagnitude|FrequencyDomain.BodyAngularAccelerationMagnitude	|
-Small text</sup></sub>
+</sup></sub>
 
 
 (*) Acceleration and Jerk are measured as gravitational units (g)
