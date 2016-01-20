@@ -34,6 +34,7 @@ The experiments have been carried out with a group of 30 volunteers within an ag
 (1) t or f + (2) phsyical measure + (3) mean/Std + (4) X, Y or Z
 ```
 Whereby
+
 1. t or f refers whether the signal was recorded in the time (t) or frequency (f) domain
 2. is the physical signal being measured
 3. specifies the summary measure: a mean or standard deviation
