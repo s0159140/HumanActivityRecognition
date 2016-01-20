@@ -2,9 +2,15 @@
 * Getting and Cleaning Data - Course Project
 * Original Submission by Bert CARLIER - Jan-19, 2016
 
-##Purpose
-This Codebook documents all the variables and measures used in the output file "HAR_tidy.txt" of the run_analysis.R script
+##Background of the Experiment
+The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, we captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. The obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data. 
 
+##Objective of the run_analysis.R script
+* Return an aggregated, structure cleaned dataset "HAR_tidy.txt" containing
+  * an identifier on the individual being tested
+  * an activity label of the action being performed during measurement
+  * the mean and stdev measures of all motion data
+  
 ##Identifiers
 *`subject` - gives a numeric index label to each of the tested individuals
 
