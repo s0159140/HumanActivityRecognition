@@ -39,29 +39,30 @@ Whereby
 (3) specifies the summary measure: a mean or standard deviation
 (4) expresses the axis along/around which the movement/rotation is taking place
 
-The below table summarizes which physical signals are (1) or are not (0) being measured in the time and frequency domain
+The below 3 tables summarize all physical signals and calculations.
+The last 2 columns indicate whether they are (1) or are not (0) being measured in the time and frequency domain
 
+#### First, we capture the movement and rotation signals measured by the devices on the body
 |Header name|Physical signal|Units|Time|Frequency|
 |---|---|---|---|---|---|
 |Body Acc|Acceleration (along X,Y and Z axis)|m/s^2 (*)|1|1|
 |Body Acc Jerk|Jerk of Acceleration (along X,Y and Z axis)|m/s^2 (*)|1|1|
 |Body Angular Speed|Angular Speed (along X,Y and Z axis)|rad/s|1|1|
 |Body Angular Acc|Angular Acceleration (along X,Y and Z axis)|rad/s^s|1|0|
-Table 1: Movement and rotation signals measured by the devices on the body (accelerometer and gyroscope)
 
+#### Secondly, we seperate the impact of gravity to get to the net human activity
 |Header name|Physical signal|Units|Time|Frequency|
 |---|---|---|---|---|---|
 |Gravity Acc|Acceleration (along X,Y and Z axis)|m/s^2 (*)|1|0|
 |Gravity Acc Mag|Magnitude of Acceleration|m/s^2 (*)|1|0|
-Table 2: We measure the impact of gravity seperate (to calculate the net movement of the body)
 
+#### Finally, we sum up all vectors on the x,y and z-axis to compute the magnitude of the aggregate vector
 |Header name|Physical signal|Units|Time|Frequency|
 |---|---|---|---|---|---|
 |Body Acc Magnitude|Magnitude of Acceleration|m/s^2 (*)|1|1|
 |Body Acc Jerk Mag|Magnitude of Jerk|m/s^2 (*)|1|1|
 |Body Angular Speed Mag|Magnitude of Angular Speed|rad/s|1|1|
 |Body Angular Acc Mag|Magnitude of Angular Acceleration|rad/s^2|1|1|
-Table 3: Finally, we get a the magnitude of the signals by summing up vectors along X, Y and Z-axis
 
 An example of a parameter in the output data is **fBodyAccJerk-mean()-Z**, which tells us that the data are recorded in the frequency domain and the data represent the means of the "Jerk (of the acceleration)" along Z axis
 
