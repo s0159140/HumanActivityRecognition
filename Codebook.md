@@ -7,16 +7,16 @@ The experiments have been carried out with a group of 30 volunteers within an ag
 
 ##Objective of the run_analysis.R script
 * Return an aggregated, structure cleaned dataset "HAR_tidy.txt" containing
-  * an identifier on the individual being tested
-  * an activity label of the action being performed during measurement
-  * the mean and stdev measures of all motion data
+  * Element 1: an identifier on the individual being tested
+  * Element 2: an activity label of the action being performed during measurement
+  * Element 3: the mean and stdev measures of all motion data
   
-##Identifiers
+###Element 1: Identifiers
 *`subject` - gives a numeric index label to each of the tested individuals
 
 *`activity` - documents the activity the invididuals were performing when their training data were taken
 
-##Activity Labels
+###Element 2: Activity Labels
 * **WALKING**  individual was walking during the test
 * **WALKING_UPSTAIRS**: individual was walking up a staircase during the test
 * **WALKING_DOWNSTAIRS**: individual was walking down a staircase during the test
@@ -24,7 +24,7 @@ The experiments have been carried out with a group of 30 volunteers within an ag
 * **STANDING**: individual was standing during the test
 * **LAYING**: invididual was laying down during the test
 
-##Structure of the output data
+###Element 3: Structure of the meand and stdev output data
 * The activity of 30 test inviduals is being measured using an accelerometer (to track movement) and a gyroscope (to track rotation).
 * Data is both being measured in the time domain (t) as in the frequency domain (f)
 * Each of the parameters in the output data set has below structure
