@@ -21,7 +21,7 @@ Return an aggregated, structure cleaned dataset "HAR_tidy.txt" containing
 
 |Physical Signal|Units|Time|Frequency|
 |---|---|---|---|
-|Body Acceleration|m/s^2 (*)|TimeDomain.BodyAcceleration.XYZ|FrequencyDomain.BodyAcceleration.XYZ|
+|<sub>Body Acceleration|m/s^2 (*)</sub>|TimeDomain.BodyAcceleration.XYZ|FrequencyDomain.BodyAcceleration.XYZ|
 |Gravity Acceleration|m/s^2 (*)|TimeDomain.GravityAcceleration.XYZ	| |
 |Body Acceleration Jerk|m/s^3 (*)|TimeDomain.BodyAccelerationJerk.XYZ	|FrequencyDomain.BodyAccelerationJerk.XYZ	|
 |Body Angular Speed|rad/s|TimeDomain.BodyAngularSpeed.XYZ|FrequencyDomain.BodyAngularSpeed.XYZ|
