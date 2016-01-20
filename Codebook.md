@@ -19,18 +19,18 @@ Return an aggregated, structure cleaned dataset "HAR_tidy.txt" containing
   * **LAYING**: invididual was laying down during the test
 * a 79-feature vector with time and frequency domain signal variables (numeric)
 
-|<sub>Physical Signal|<sub>Units|<sub>Time|<sub>Frequency|
+|<sub>Physical Signal</sub>|<sub>Units</sub>|<sub>Time</sub>|<sub>Frequency</sub>|
 |---|---|---|---|
-|<sub>Body Acceleration|m/s^2 (*)</sub>|TimeDomain.BodyAcceleration.XYZ|FrequencyDomain.BodyAcceleration.XYZ|
-|<sub>Gravity Acceleration|m/s^2 (*)|TimeDomain.GravityAcceleration.XYZ	| |
-|<sub>Body Acceleration Jerk|m/s^3 (*)|TimeDomain.BodyAccelerationJerk.XYZ	|FrequencyDomain.BodyAccelerationJerk.XYZ	|
-|<sub>Body Angular Speed|rad/s|TimeDomain.BodyAngularSpeed.XYZ|FrequencyDomain.BodyAngularSpeed.XYZ|
-|<sub>Body Angular Acceleration|rad/s^s|TimeDomain.BodyAngularAcceleration.XYZ	|FrequencyDomain.BodyAngularAcceleration.XYZ	|
-|<sub>Body Acceleration Magnitude	|m/s^2 (*)|TimeDomain.BodyAccelerationMagnitude	|FrequencyDomain.BodyAccelerationMagnitude	|
-|<sub>Gravity Acceleration Magnitude|m/s^2 (*)|TimeDomain.GravityAccelerationMagnitude	| |
-|<sub>Body Acceleration Jerk Magnitude	|m/s^3 (*)|TimeDomain.BodyAccelerationJerkMagnitude|FrequencyDomain.BodyAccelerationJerkMagnitude|
-|<sub>Body Angular Speed Magnitude	|rad/s|TimeDomain.BodyAngularSpeedMagnitude	|FrequencyDomain.BodyAngularSpeedMagnitude	|
-|<sub>Body Angular Acceleration Magnitude|rad/s^2|TimeDomain.BodyAngularAccelerationMagnitude|FrequencyDomain.BodyAngularAccelerationMagnitude	|
+|<sub>Body Acceleration|m/s^2 (*)</sub>|TimeDomain.BodyAcceleration.XYZ|FrequencyDomain.BodyAcceleration.XYZ</sub>|
+|<sub>Gravity Acceleration|m/s^2 (*)|TimeDomain.GravityAcceleration.XYZ	| </sub>|
+|<sub>Body Acceleration Jerk|m/s^3 (*)|TimeDomain.BodyAccelerationJerk.XYZ	|FrequencyDomain.BodyAccelerationJerk.XYZ	</sub>|
+|<sub>Body Angular Speed|rad/s|TimeDomain.BodyAngularSpeed.XYZ|FrequencyDomain.BodyAngularSpeed.XYZ</sub>|
+|<sub>Body Angular Acceleration|rad/s^s|TimeDomain.BodyAngularAcceleration.XYZ	|FrequencyDomain.BodyAngularAcceleration.XYZ	</sub>|
+|<sub>Body Acceleration Magnitude	|m/s^2 (*)|TimeDomain.BodyAccelerationMagnitude	|FrequencyDomain.BodyAccelerationMagnitude	</sub>|
+|<sub>Gravity Acceleration Magnitude|m/s^2 (*)|TimeDomain.GravityAccelerationMagnitude	| </sub>|
+|<sub>Body Acceleration Jerk Magnitude	|m/s^3 (*)|TimeDomain.BodyAccelerationJerkMagnitude|FrequencyDomain.BodyAccelerationJerkMagnitude</sub>|
+|<sub>Body Angular Speed Magnitude	|rad/s|TimeDomain.BodyAngularSpeedMagnitude	|FrequencyDomain.BodyAngularSpeedMagnitude	</sub>|
+|<sub>Body Angular Acceleration Magnitude|rad/s^2|TimeDomain.BodyAngularAccelerationMagnitude|FrequencyDomain.BodyAngularAccelerationMagnitude	|</sub>
 
 |<sub>Physical Signal</sub>|<sub> Units</sub>|<sub>Time</sub>|<sub>Frequency</sub>|-
 |---|---|---|---|
