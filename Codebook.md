@@ -65,7 +65,7 @@ The last 2 columns indicate whether they are (1) or are not (0) being measured i
 |Body Angular Speed Mag|Magnitude of Angular Speed|rad/s|1|1|
 |Body Angular Acc Mag|Magnitude of Angular Acceleration|rad/s^2|1|1|
 
-An example of a parameter in the output data is **fBodyAccJerk-mean()-Z**, which tells us that the data are recorded in the frequency domain and the data represent the means of the "Jerk (of the acceleration)" along Z axis
+An example of a parameter in the output data is **fBodyAccJerk-mean()-Z**, which tells us that the data are recorded in the frequency domain and the data represent the means of the "Jerk (of the acceleration)", measured on the body along Z axis.
 
 
 
