@@ -68,5 +68,8 @@ An example of a parameter in the output data is **fBodyAccJerk-mean()-Z**, which
 
 
 
+(*) Acceleration and Jerk are measured as gravitational units (g)
+
+
 
 
