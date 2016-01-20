@@ -24,13 +24,13 @@ This Codebook documents all the variables and measures used in the output file "
 ```
 **(1) t or f + (2) phsyical measure + (3) mean/Std + (4) X, Y, Z**
 ```
-
-(1) t or f refers whether the signal was recorded in the time or frequency domain
+Whereby
+(1) t or f refers whether the signal was recorded in the time (t) or frequency (f) domain
 (2) is the physical signal being measured
 (3) specifies the summary measure: a mean or standard deviation
 (4) expresses the axis along/around which the movement/rotation is taking place
 
-The below table summarizes which signals are (1) or are not (0) being measured
+The below table summarizes which physical signals are (1) or are not (0) being measured in the time and frequency domain
 
 |Signal|Physical measure|Units|Time|Frequency|
 |---|---|---|---|---|---|
