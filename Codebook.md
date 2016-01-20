@@ -21,6 +21,7 @@ This Codebook documents all the variables and measures used in the output file "
 ##Experiment design - physical measures
 
 |Signal|Physical measure|Units|Time|Frequency|
+|---|---|---|---|---|---|
 |Body Acc|Acceleration (along X,Y and Z axis)|m/s^2 (*)|1|1|
 |Body Acc Jerk|Jerk of Acceleration (along X,Y and Z axis)|m/s^2 (*)|1|1|
 |Body Angular Speed|Angular Speed (along X,Y and Z axis)|rad/s|1|1|
