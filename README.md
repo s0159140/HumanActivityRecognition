@@ -18,7 +18,7 @@ The R script run_analysis.R will carry out the following operations
 * Creating a new tidy dataset containing  
   * an index label for the test individuals
   * an activity label
-  * a vector 79-feature vector, holding means and stdev over all columns containing means and stdev data
+  * a 79-feature vector, holding means and stdev over all columns containing means and stdev data
 * The result will be returned in a text file HAR_tidy.txt, located in the working directory. 
 
 The tidy data set contains 10299 observations with 81 variables .
