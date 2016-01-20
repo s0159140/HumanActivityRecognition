@@ -70,6 +70,7 @@ names(alldata_agg) <- gsub('\\(|\\)',"",names(alldata_agg), perl = TRUE)
 
 # Make syntactically valid names
 names(alldata_agg) <- make.names(names(alldata_agg))
+
 # Make the names more descriptive 
 names(alldata_agg) <- gsub('Acc',"Acceleration",names(alldata_agg))
 names(alldata_agg) <- gsub('GyroJerk',"AngularAcceleration",names(alldata_agg))
