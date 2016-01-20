@@ -20,6 +20,7 @@ This Codebook documents all the variables and measures used in the output file "
 
 ##Structure of the output data
 * The activity of 30 test inviduals is being measured using an accelerometer (to track movement) and a gyroscope (to track rotation).
+* Data is both being measured in the time domain (t) as in the frequency domain (f)
 * Each of the parameters in the output data set has below structure
 ```
 (1) t or f + (2) phsyical measure + (3) mean/Std + (4) X, Y or Z
@@ -32,7 +33,7 @@ Whereby
 
 The below table summarizes which physical signals are (1) or are not (0) being measured in the time and frequency domain
 
-|Signal|Physical measure|Units|Time|Frequency|
+|Header name|Physical signal|Units|Time|Frequency|
 |---|---|---|---|---|---|
 |Body Acc|Acceleration (along X,Y and Z axis)|m/s^2 (*)|1|1|
 |Body Acc Jerk|Jerk of Acceleration (along X,Y and Z axis)|m/s^2 (*)|1|1|
@@ -40,13 +41,13 @@ The below table summarizes which physical signals are (1) or are not (0) being m
 |Body Angular Acc|Angular Acceleration (along X,Y and Z axis)|rad/s^s|1|0|
 Table 1: Movement and rotation signals measured by the devices on the body (accelerometer and gyroscope)
 
-|Signal|Physical measure|Units|Time|Frequency|
+|Header name|Physical signal|Units|Time|Frequency|
 |---|---|---|---|---|---|
 |Gravity Acc|Acceleration (along X,Y and Z axis)|m/s^2 (*)|1|0|
 |Gravity Acc Mag|Magnitude of Acceleration|m/s^2 (*)|1|0|
 Table 2: We measure the impact of gravity seperate (to calculate the net movement of the body)
 
-|Signal|Physical measure|Units|Time|Frequency|
+|Header name|Physical signal|Units|Time|Frequency|
 |---|---|---|---|---|---|
 |Body Acc Magnitude|Magnitude of Acceleration|m/s^2 (*)|1|1|
 |Body Acc Jerk Mag|Magnitude of Jerk|m/s^2 (*)|1|1|
