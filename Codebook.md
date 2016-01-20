@@ -40,7 +40,7 @@ Whereby
 3. specifies the summary measure: a mean or standard deviation
 4. expresses the axis along/around which the movement/rotation is taking place
 
-The below 3 tables summarize all physical signals and calculations.
+The below 3 tables summarize all physical signals and calculations (i.e. the second part in the structure).
 The last 2 columns indicate whether they are (1) or are not (0) being measured in the time and frequency domain
 
 #### First, we capture the movement and rotation signals measured by the devices on the body
