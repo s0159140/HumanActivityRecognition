@@ -19,35 +19,20 @@ Return an aggregated, structure cleaned dataset "HAR_tidy.txt" containing
   * **LAYING**: invididual was laying down during the test
 * a 79-feature vector with time and frequency domain signal variables (numeric)
 
-The following table connects the 17 signals measured in the time and frequency domain to their variable names in the dataset
 
-Whereby
-
-1. t or f refers whether the signal was recorded in the time (t) or frequency (f) domain
-2. is the physical signal being measured
-3. specifies the summary measure: a mean or standard deviation
-4. expresses the axis along/around which the movement/rotation is taking place
-
-The below 3 tables summarize all physical signals and calculations (i.e. the second part in the structure).
-The last 2 columns indicate whether they are (1) or are not (0) being measured in the time and frequency domain
-
-#### First, we capture the movement and rotation signals measured by the devices on the body
 |Physical Signal|Units|Time|Frequency|
 |---|---|---|---|
 |Body Acceleration|m/s^2 (*)|TimeDomain.BodyAcceleration.XYZ|FrequencyDomain.BodyAcceleration.XYZ|
+|Gravity Acceleration|m/s^2 (*)|TimeDomain.GravityAcceleration.XYZ	| |
 |Body Acceleration Jerk|m/s^3 (*)|TimeDomain.BodyAccelerationJerk.XYZ	|FrequencyDomain.BodyAccelerationJerk.XYZ	|
 |Body Angular Speed|rad/s|TimeDomain.BodyAngularSpeed.XYZ|FrequencyDomain.BodyAngularSpeed.XYZ|
 |Body Angular Acceleration|rad/s^s|TimeDomain.BodyAngularAcceleration.XYZ	|FrequencyDomain.BodyAngularAcceleration.XYZ	|
-|---|---|---|---|
-|Gravity Acceleration|m/s^2 (*)|TimeDomain.GravityAcceleration.XYZ	| |
-|---|---|---|---|
 |Body Acceleration Magnitude	|m/s^2 (*)|TimeDomain.BodyAccelerationMagnitude	|FrequencyDomain.BodyAccelerationMagnitude	|
+|Gravity Acceleration Magnitude|m/s^2 (*)|TimeDomain.GravityAccelerationMagnitude	| |
 |Body Acceleration Jerk Magnitude	|m/s^3 (*)|TimeDomain.BodyAccelerationJerkMagnitude|FrequencyDomain.BodyAccelerationJerkMagnitude|
 |Body Angular Speed Magnitude	|rad/s|TimeDomain.BodyAngularSpeedMagnitude	|FrequencyDomain.BodyAngularSpeedMagnitude	|
 |Body Angular Acceleration Magnitude|rad/s^2|TimeDomain.BodyAngularAccelerationMagnitude|FrequencyDomain.BodyAngularAccelerationMagnitude	|
-|---|---|---|---|
-|Gravity Acceleration Magnitude|m/s^2 (*)|TimeDomain.GravityAccelerationMagnitude	| |
-|---|---|---|---|
+
 
 An example of a parameter in the output data is **fBodyAccJerk-mean()-Z**, which tells us that the data are recorded in the frequency domain and the data represent the means of the "Jerk (of the acceleration)", measured on the body along Z axis.
 
