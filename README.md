@@ -16,7 +16,9 @@ The R script run_analysis.R will carry out the following operations
   * an index label for the test individuals
   * an activity label
   * the means over each of the columns retained in step 2
-* The result will be returned in a text file HAR_tidy.txt, located in the working directory. The tidy data set contains 10299 observations with 81 variables .
+* The result will be returned in a text file HAR_tidy.txt, located in the working directory. 
+
+The tidy data set contains 10299 observations with 81 variables .
 
 
 ##Background of the data
