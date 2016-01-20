@@ -19,4 +19,4 @@ The R script run_analysis.R will carry out the following operations
 * The result will be returned in a text file HAR_tidy.txt, located in the working directory.
 
 ##Background of the data
-More background about the design of the experiment can be found on the [Website of ICS] http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones#
+More background about the design of the experiment can be found on the [Website of ICS] (http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
